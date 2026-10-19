@@ -3,12 +3,6 @@
 
 .element__one {
     display: flex;
-    height: 100vh;
-    width: 100%;
-}
-
-.element__two {
-    display: flex;
     flex-direction: column;
     justify-content: start;
     width: 260px;
