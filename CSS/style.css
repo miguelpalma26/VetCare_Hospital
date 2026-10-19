@@ -1,0 +1,18 @@
+@import url(./reset.css);
+@import url(./variables.css);
+
+.element__one {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+}
+
+.element__two {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 260px;
+    background-color: var(--color-sidebar-bg);
+    padding: 30px 20px;
+    border-right: 1px solid var(--ui-border);
+}
