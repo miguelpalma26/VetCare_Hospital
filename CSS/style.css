@@ -1,6 +1,12 @@
 @import url(./reset.css);
 @import url(./variables.css);
 
+.element__zero {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+}
+
 .element__one {
     display: flex;
     flex-direction: column;
@@ -13,7 +19,7 @@
 
 .title__text {
     color: var(--color-sidebar-text);
-    font-size: var(--font-size-lg);
+    font-size: var(--font-size-base);
     font-weight: 700;
     margin-bottom: 35px;
     text-align: center;
@@ -27,7 +33,7 @@
 }
 
 .nav__link {
-    color: var(--ui-text-link);
+    color: var(--color-sidebar-text);
     text-decoration: none;
     font-size: 14px;
     font-weight: 600;
@@ -38,7 +44,6 @@
 }
 
 .section-vet {
-    height: var(--section-height);
     min-height: 500px;
     display: flex;
     align-items: center;
@@ -143,8 +148,7 @@
     left: 0;
     width: 100%;
     height: var(--footer-height);
-    background-color: var(--color-bg-card);
-    border-top: 1px solid var(--color-border);
+    background-color: var(--color-sidebar-bg);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -156,5 +160,5 @@
     display: flex;
     align-items: center;
     font-size: var(--font-size-sm);
-    color: var(--color-text-muted);
+    color: var(--color-sidebar-text);
 }
