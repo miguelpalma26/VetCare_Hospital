@@ -83,7 +83,7 @@
     font-size: var(--font-size-sm);
 }
 
-.card-image {
+.card-image__section {
     background-color: var(--color-bg-card);
     padding: 12px;
     border-radius: var(--radius-md);
@@ -161,4 +161,15 @@
     align-items: center;
     font-size: var(--font-size-sm);
     color: var(--color-sidebar-text);
+}
+
+.whats {
+    width: 150px;
+    height: 50px;
+    color: var(--color-bg-card);
+    background-color: rgb(56, 248, 104);
+    border-radius: 20%;
+    position: fixed;
+    bottom: 100px;
+    right: 60px;
 }
